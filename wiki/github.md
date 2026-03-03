@@ -364,16 +364,16 @@ A [label](https://docs.github.com/en/issues/using-labels-and-milestones-to-track
 1. [Go to your fork](#go-to-your-fork).
 2. Go to `Settings`.
 3. Go to `Code and automation`.
-4. Go to `Rules`.
-5. Go to `Rulesets`.
-6. Go to `New ruleset`.
-7. Go to `Add branch ruleset`.
+4. Click `Rules`.
+5. Click `Rulesets`.
+6. Click `New ruleset`.
+7. Click `New branch ruleset`.
 8. Set:
 
    1. `Ruleset Name`: `push`
    2. `Enforcement status`: `Active`
    3. `Target branches` -> `Add target` -> `Include default branch`
-   4. Rules:
+   4. `Branch rules`:
       - [x] `Restrict deletions`
       - [x] `Require a pull request before merging`:
          - `Required approvals`: `1`
